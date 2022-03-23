@@ -1,16 +1,16 @@
-import java.util.*;
-public class Main
+import java.util.*;                  
+public class Main                 
 {
     public static void main(String args[])
-    {
-        int num;
-        String str;
-        Scanner sc=new Scanner(System.in);
+    { 
+        int num;                              //variable num is being declared with its data type being an integer value        
+        String str;                           //variable str is being declared with its data type being a string value. note that in String S is capital but not in in                                     
+        Scanner sc=new Scanner(System.in);    //object of Scanner is declared as sc
         System.out.println("Enter integer");
-        num=sc.nextInt();
+        num=sc.nextInt();                      //input is taken with the help of scanner object that is sc
         System.out.println("Enter String");
-        str=sc.next();
+        str=sc.next();                         //string input is taken
         
-        System.out.println(num+" "+ str);
+        System.out.println(num+" "+ str);     //values are printed, here we use + as concatenate different type of variable such as int and string
     }
 }
