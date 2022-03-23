@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int num;
+        String str;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter integer");
+        num=sc.nextInt();
+        System.out.println("Enter String");
+        str=sc.next();
+        
+        System.out.println(num+" "+ str);
+    }
+}
